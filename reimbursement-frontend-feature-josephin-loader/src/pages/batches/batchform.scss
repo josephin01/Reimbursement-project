@@ -1,0 +1,61 @@
+.body {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.formContent {
+  background-color: white;
+  height: 12rem;
+  font-size: 0.9rem;
+  width: 80%;
+  padding-top: 2rem;
+  border-radius: 0.42rem;
+}
+
+.inputs {
+  background-color: whitesmoke;
+  border: none;
+  height: 2rem;
+  border-radius: 0.42rem;
+  width: 10rem;
+}
+
+.row-content {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  justify-content: space-around;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20rem;
+}
+
+.table {
+  display: flex;
+  width: fit-content;
+  padding-top: 1rem;
+}
+
+.sideContent {
+  width: 10rem;
+}
+
+.TextContent {
+  padding-bottom: 1rem;
+  color: grey;
+  font-size: 1rem;
+}
+
+.ActiveContent {
+  padding-bottom: 1rem;
+  color: black;
+  font-size: 1.2rem;
+}

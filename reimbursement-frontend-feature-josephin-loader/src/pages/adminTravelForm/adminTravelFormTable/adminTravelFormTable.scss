@@ -1,0 +1,22 @@
+.adminTravelForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:100%;
+    gap:2rem;
+}
+.adminTravelFormToggle{
+    display:flex;
+    gap:4rem;
+}
+.adminTravelFormContent{
+    font-size: 1.5rem;
+    padding-bottom:.5rem;
+}
+.current{
+    border-bottom: 1px solid black;
+}
+.adminTravelFormTable{
+    width:100%;
+    height:100%;
+}

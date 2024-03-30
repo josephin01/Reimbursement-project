@@ -1,0 +1,10 @@
+@import "../../../assets/styleSheet/mixins.scss";
+.billContainer {
+  @include addContainer;
+}
+.billName {
+  width: 6rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,53 @@
+.chartsStyle{
+    display: flex;
+    flex:1;
+    height:100%;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    gap:5rem;
+}
+.contentContainer{
+    height:100%;
+}
+.greetingStyle{
+    font-size: 2.4rem;
+    display: flex;
+    font-weight: 600;
+
+}
+.Doughnut{
+    width:40%;
+    display:flex;
+    justify-content: center;
+}
+.progressChart{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tableMain{
+    overflow: hidden;
+    height:100%;
+    flex:1;
+}
+.CardTable{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+}
+.formContainer{
+    display:flex;
+    flex-direction: column;
+    gap:2rem;
+}
+.claimCard{
+    height:100%;
+    width:50%;
+    display:flex;
+    flex-direction: column;
+}
+
+    

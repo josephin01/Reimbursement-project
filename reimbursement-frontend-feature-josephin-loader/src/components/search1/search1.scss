@@ -1,0 +1,18 @@
+.searchBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:.5rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: .8rem;
+    gap:.5rem;
+}
+.searchInput{
+    height:1.5rem;
+    width:15rem;
+    border: none;
+}
+.searchInput:focus{
+    outline: none;
+}

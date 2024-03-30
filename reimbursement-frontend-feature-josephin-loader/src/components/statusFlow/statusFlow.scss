@@ -1,0 +1,39 @@
+.Arrow {
+  width: 18rem;
+  height: 4rem;
+  @media screen and (max-width: 1800px) {
+    width: 16rem;
+  }
+  @media screen and (max-width: 1600px) {
+    width: 14rem;
+  }
+  @media screen and (max-width: 1500px) {
+    width: 12rem;
+  }
+}
+.statusIcon {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-50%);
+  text-align: center;
+  left: 20%;
+  color: white;
+  font-size: 1.5rem;
+}
+.statusText {
+  position: absolute;
+  top: 38%;
+  transform: translateY(-50%);
+  text-align: center;
+  left: 30%;
+  color: white;
+}
+.travelFlow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.flowItem {
+  position: relative;
+  margin: 0 rem;
+}

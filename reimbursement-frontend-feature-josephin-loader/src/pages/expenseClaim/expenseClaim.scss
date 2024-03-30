@@ -1,0 +1,9 @@
+.expenseClaimTable{
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.expenseClaimButton{
+  display:flex;
+  justify-content: right;
+}

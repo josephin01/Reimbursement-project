@@ -1,0 +1,46 @@
+@use "../../assets/styleSheet/mixins.scss";
+
+@import '../../assets//styleSheet/variables.scss';
+
+.login-wrapper {
+  @include mixins.display(space-evenly);
+  width: 31.25rem;
+  height: 24.5rem;
+  box-shadow: $box-shadow;
+  flex-direction: column;
+
+  .login-logo {
+    @include mixins.flexDirection;
+
+    .logo-image {
+      width: 10rem;
+      height: 10rem;
+    }
+
+    .text {
+      font-size: 1.5rem;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+  }
+
+  @media (max-width: 768px) {
+    width: 100%;
+    height: auto;
+    padding: 1rem;
+    box-shadow: none;
+
+    .login-logo {
+      text-align: center;
+      margin-bottom: 1rem;
+
+      .logo-image {
+        width: 6rem;
+        height: 6rem;
+      }
+
+      .text {
+        font-size: 1rem;
+      }
+    }
+  }
+}

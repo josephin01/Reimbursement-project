@@ -1,0 +1,30 @@
+@import "../../../assets/styleSheet/mixins.scss";
+
+.claimFormContainer {
+  @include FormContainer;
+  @include FieldInputLabel;
+  @include Colleague;
+}
+
+.travelFormField {
+  @include Field;
+}
+.travelFormRow {
+  display: flex;
+  gap: 20rem;
+  @media screen and (max-width: 1200px) {
+    gap: 10rem;
+  }
+  @media screen and (max-width: 1000px) {
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+.ManagerInput {
+  display: flex;
+  flex-direction: column;
+}
+
+.fieldProject {
+  display: flex;
+}

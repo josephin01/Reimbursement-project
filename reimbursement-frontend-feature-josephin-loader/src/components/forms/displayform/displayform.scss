@@ -1,0 +1,27 @@
+.formContainer {
+  background-color: white;
+  padding:2rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; }
+
+.grid-item {
+  padding: .5rem;
+  display:flex;
+  justify-content: left;
+}
+.displayLabel{
+  width:8rem;
+}
+.displaySpan{
+  flex:1;
+}
+.billContainer1{
+  display:flex;
+}

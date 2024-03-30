@@ -1,0 +1,41 @@
+@use "../../assets/styleSheet/variables.scss";
+
+.popupContainer {
+  background-color: variables.$grey-color;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .popupBox {
+    background-color: variables.$background-color;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    position: absolute;
+    top: 24rem;
+    
+
+    .popupTitle {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin-bottom: 1.5rem;
+      margin-left: 0.5rem;
+    }
+    .popupMessage {
+      font-size: variables.$font-size;
+      margin-bottom: 1rem;
+      p {
+        width: 100%;
+        padding: 1rem 0.7rem;
+        white-space: pre-line;
+      }
+    }
+    .popupButtons {
+      padding: 0.5rem;
+      display: flex;
+      flex-direction: row;
+      gap: 13rem;
+    }
+  }
+}

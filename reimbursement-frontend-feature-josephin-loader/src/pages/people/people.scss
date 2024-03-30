@@ -1,0 +1,29 @@
+.admin-people{
+    
+    width: 100%;
+}
+.deletePopUP{
+    width: 100%;
+    backdrop-filter: blur(5px);
+}
+.successMessage {
+    position: fixed;
+    top: 80px;
+    right: 30px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 999;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  }
+  
+  .successMessage.show {
+    opacity: 1;
+    background-color: green;    
+  } 
+  
+  .successMessage .reject {
+    opacity: 1;
+    background-color: red;
+  }

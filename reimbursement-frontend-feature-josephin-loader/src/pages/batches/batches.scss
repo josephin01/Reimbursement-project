@@ -1,0 +1,26 @@
+.Top-Content {
+  position: relative;
+  top: 3rem;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.buttoncontainer {
+  position: absolute;
+  right: 3rem;
+}
+
+.Container {
+  margin-top: 3rem;
+  width: 95%;
+  position: absolute;
+  top: 2rem;
+  height: 85vh;
+}
+
+.main-content {
+  background-color: white;
+}

@@ -1,0 +1,54 @@
+
+@import "../../../assets/styleSheet/mixins.scss";
+
+.ExpenseClaimContainer {
+  @include FormContainer;
+  @include FieldInputLabel;
+  @include Colleague;
+}
+.ExpenseField {
+  @include Field;
+}
+.expenseRow {
+  @include Row;
+}
+.fieldRemark {
+  display: flex;
+}
+.BillAdd label {
+  width: 6rem;
+  display: flex;
+  align-items: center;
+}
+.BillAdd > input {
+  display: none;
+}
+.BillAdd {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.titleForm{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.closeView{
+  cursor: pointer;
+}
+
+.expenseRowOne{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  gap: 10rem;
+}
+
+.ProjectsField{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  @include FieldInputLabel;
+  padding: 30px;
+}

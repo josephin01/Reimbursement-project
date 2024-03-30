@@ -1,0 +1,114 @@
+.SideBarContainer{
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+  padding:2rem;
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+  height:100%;
+  background: #ffffff;
+
+}
+.DivumLogo{
+  height:4rem;
+  width:7rem;
+  padding: 0;
+}
+.SideBarProfile{
+  height:2.7rem;
+  width:2.7rem;
+  border-radius:50%;
+  object-fit: cover;
+}
+.logoContainer{
+  display: flex;
+  justify-content: center;
+}
+.profileContainer{
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  
+}
+
+.profileInfo{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 1.1rem;
+  color: #4070f4;
+  font-size: 1.1rem;
+}
+
+.SideBarField{
+  display:flex;
+  align-items: center;
+  padding: 0.4rem;
+  border-radius: 5px;
+  gap:1.5rem;
+
+}
+.SideBarField:hover{
+  background-color: #4070f4;
+  color: #ffffff;
+}
+.sideBarActive{
+  color:black;
+}
+.SideBarContent{
+  flex:1;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2rem;
+  gap:1.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.submenuContainer{
+  padding:2rem;
+  padding-left:2rem;
+  border-left: 1px solid black;
+  display:flex;
+  flex-direction: column;
+  gap:2rem;
+}
+.dropDownField{
+  display:flex;
+  gap:2rem;
+  justify-content: space-between;
+}
+
+
+.icon{
+  font-size: 1.9rem;
+}
+
+
+
+@media only screen and (max-width:430px) {
+
+.DivumLogo,
+.sidbarValues,
+
+.userName {
+  display: none;
+}
+.SideBarContent{
+  align-items: center;
+  padding: 2rem;
+
+}
+.SideBarContainer{
+  padding: 0;
+  width: 3.5rem;
+  height: fit-content;
+}
+.dropdownIcon{
+  display: none;
+}
+.dropDownField{
+  justify-content: space-around;
+}
+
+  
+}

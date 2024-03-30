@@ -1,0 +1,23 @@
+.form1Container{
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.ViewTitle{
+    font-size: 1.5rem;
+}
+.expenseDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.totalAmount{
+    display:flex;
+    justify-content: right;
+    font-weight: bold;
+    // background-color: aqua;
+}
+.ExpenseViewButton{
+    display:flex;
+}

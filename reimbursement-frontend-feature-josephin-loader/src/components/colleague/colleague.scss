@@ -1,0 +1,15 @@
+@import "../../assets/styleSheet/mixins.scss";
+.ColleagueCont {
+  @include addContainer;
+}
+.ColleagueProfile {
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+}
+.ColleagueName {
+  padding: 0.1rem;
+  display: flex;
+  gap: 0.2rem;
+  align-items: center;
+}

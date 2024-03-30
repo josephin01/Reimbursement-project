@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+.card:nth-child(1) {
+  background-color: #73cf8d;
+}
+
+.card:nth-child(2) {
+  background-color: #c2b9b0;
+}
+
+.card:nth-child(3) {
+  background-color: #7e685a;
+}
+
+.card:nth-child(4) {
+  background-color: #c2cad0;
+}
+
+.card:nth-child(5) {
+  background-color: #e7717d;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  height: 140px;
+  width: 220px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.icon-container {
+  position: absolute;
+  top: 5px;
+  right: 6px;
+}
+
+.card-icon {
+  font-size: 3em;
+  font-weight: lighter;
+  color: white;
+}
+
+.card-text {
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: auto;
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.card-count {
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  margin-top: 5px;
+  font-size: 40px;
+  color: #ffffff;
+}

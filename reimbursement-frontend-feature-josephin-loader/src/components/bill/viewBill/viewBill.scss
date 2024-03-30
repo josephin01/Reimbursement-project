@@ -1,0 +1,70 @@
+
+@use "../../../assets/styleSheet/variables.scss";
+.buttonContainer {
+  display: flex;
+  padding: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  .combinedContainer {
+    width: 7rem;
+    display: flex;
+    align-items: center;
+    background-color: #f5f1f1;
+    color: black;
+    padding: 0.3125rem 0.625rem;
+    margin-right: 0.625rem;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    margin-bottom: 0.625rem;
+
+    .icon {
+      margin-right: 0.625rem;
+    }
+
+    .billsButton {
+      font-size: variables.$font-size;
+      width: 6rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+  }
+}
+@media all and (min-width: 1130px) {
+  .buttonContainer {
+    justify-content: flex-start;
+  }
+}
+.modalContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: variables.$white-color;
+  padding: 1.25rem;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+  outline: none;
+  .modalImage {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0.3125rem;
+  }
+  .closeButton {
+    position: absolute;
+    top: 0.3125rem;
+    right: 0.3125rem;
+    background-color: transparent;
+    color: variables.$grey-color;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.3125rem;
+    cursor: pointer;
+    border: none;
+  }
+  .closeIcon {
+    font-size: 1.5rem;
+    margin-top: -0.125rem;
+  }
+}
+

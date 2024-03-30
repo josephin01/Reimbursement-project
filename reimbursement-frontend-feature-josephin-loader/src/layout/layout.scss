@@ -1,0 +1,53 @@
+.Home {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    height:100vh;
+  }
+  .titlebar-outlet {
+    position:relative;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: rgba(221, 234, 235, 0.8);
+    padding:0.5rem 0.2rem;
+  }
+  .SideBar{
+    height:100%;
+    width:15%;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    background-color: rgba(221, 234, 235, 0.8);
+  }
+  .titleBarContainer{
+    height:7%;
+  }
+  .outletContainer{
+    padding:1rem;
+    flex:1;
+    overflow: scroll;
+  }
+  .notificationContainer{
+    z-index: 1;
+    position: absolute;
+    top:7%;
+    right: 0;
+    height:100%;
+    width:20%;
+  }
+
+.LayoutTitle{
+    font-size: 2rem;
+}
+
+  .Layout{
+    font-size: 2rem;
+  }
+
+  @media only screen and (max-width:412px) {
+    .SideBar{
+      width: 20%;
+      
+    }
+  }
